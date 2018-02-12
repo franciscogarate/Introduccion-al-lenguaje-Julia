@@ -6,4 +6,4 @@ En la carpeta "ejemplos" se puede encontrar los diferentes ejercicios que se han
 
 ## Autor
 
-* **Francisco Gárate** -  [Githubf](https://github.com/franciscogarate)
+* **Francisco Gárate** -  [Github](https://github.com/franciscogarate)
