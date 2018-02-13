@@ -51,15 +51,13 @@
 \begin{itemize}
 	\item Descargar instalador: \url{http://julialang.org/downloads/}
 	\item En linux: \comando{apt-get install julia}
-	\item Julia incluye un terminal interactivo llamado REPL:
+	\item Julia incluye un terminal interactivo llamado REPL:\\
+	\includegraphics[scale=0.35]{images/julia-consola}
 		\begin{itemize}
 		\item \comando{;} La siguiente instrucción se ejecuta como si fuera una consola de linux
 		\item \comando{?} Busca el texto a introducir en los manuales de ayuda
 		\end{itemize}
 \end{itemize}
-\begin{center}
-	\includegraphics[scale=0.35]{images/julia-consola}
-\end{center}
 \end{frame}
 
 \begin{frame}
@@ -127,8 +125,8 @@ Teniendo R, Matlab, Mathematica, Python...\\
 \frametitle{¿Por qué Julia?}
 \begin{itemize}
 	\item Julia no es popular. 
-	\item No aparece en el ranking de los lenguajes más populares de GitHub \footnotemark ni en el Top 20 Most Popular de Stackoverflow\footnotemark.
-	\item Tampoco la NASA\footnotemark  o el CERN han liberado ninguna librería (de momento).
+	\item No aparece en el ranking de los lenguajes más populares de GitHub ni en el Top 20 Most Popular de Stackoverflow.
+	\item Tampoco la NASA o el CERN han liberado ninguna librería (de momento).
 	\item ... pero eso también mola!
 	\item Veamos las ventajas de Julia frente a otros lenguajes:
 \end{itemize}
@@ -159,7 +157,6 @@ Teniendo R, Matlab, Mathematica, Python...\\
 \includegraphics[scale=0.37]{images/julia-pararell-pi}
 \begin{itemize}
 	\item Repositorio de modelos para programación en paralelo: \url{https://juliaparallel.github.io}
-	\item Celeste.jl\footnotemark: Librería que ha incrementado x225 la velocidad del análisis de imágenes (dataset de 55 TB) ayudando al NERSC en la catalogación de objetos astronómicos
 \end{itemize}
 \end{frame}
 
@@ -180,6 +177,16 @@ Teniendo R, Matlab, Mathematica, Python...\\
 \end{itemize}
 \end{frame}
 
+\begin{frame}
+\frametitle{Casos reales}
+\framesubtitle{\url{https://juliacomputing.com/case-studies/}}
+\begin{itemize}
+	\item Celeste.jl: Librería que ha incrementado x225 la velocidad del análisis de imágenes (dataset de 55 TB) ayudando al National Energy Research Scientic Computing Center (NERSC) en la catalogación de objetos astronómicos.
+	\item QuantEcon.jl: Librería desarrollada por QuantEcon, para el Banco de la Reserva Federal de NY, utilizada para la previsión y análisis monetarios (10 veces más rápido que MATLAB).
+	\item Lora.jl y Mamba.jl: Los investigadores del cáncer del Reino Unido recurrieron a Julia para ejecutar simulaciones de crecimiento tumoral, utilizando métodos bayesianos MCMC.
+	\item IM3 y Spark.jl: AVIVA migró a Julia su software comercial de cálculo de capital regulatorio (Solvencia II), logrando correr 100.000 simulaciones en 12 segundos (1.000 veces más rápido que IBM Algorithmics) y reduciendo un 93\% el número de lineas de código.
+\end{itemize}
+\end{frame}
 
 \begin{frame}
 \frametitle{\#JuliaLangEs}
@@ -191,22 +198,24 @@ Teniendo R, Matlab, Mathematica, Python...\\
 		\item Crear/Potenciar una comunidad de usuarios de Julia en español (blog, meetup, etc...)
 		\item Crear o migrar librerías de R/Python a Julia
 	\end{itemize}
-	\item Mas info: paco@garpa.net o
+	\item Mas info: fgaratesantiago@gmail.com
+	\item Repositorio de esta presentación:
 	\begin{itemize}
 	\item \url{https://github.com/franciscogarate/Introduccion-al-lenguaje-Julia}
 	\end{itemize}
+	\item ¡Muchas gracias por la atención!
 \end{itemize}
 \end{frame}
 
-\begin{frame}
-\frametitle{Referencias}
-\begin{itemize}
-	\item [1]{\url{https://octoverse.github.com}}
-	\item [2]{\url{https://insights.stackoverflow.com/survey/2017\#technology}}
-	\item [3]{\url{https://code.nasa.gov/?q=julia} \textit{(consulta vacía)}}
-	\item [4]{\url{https://juliacomputing.com/press/2016/11/28/celeste.html}}
-\end{itemize}
-\end{frame}
+%\begin{frame}
+%\frametitle{Referencias}
+%\begin{itemize}
+%	\item [1]{\url{https://octoverse.github.com}}
+%	\item [2]{\url{https://insights.stackoverflow.com/survey/2017\#technology}}
+%	\item [3]{\url{https://code.nasa.gov/?q=julia} \textit{(consulta vacía)}}
+%	%\item [4]{\url{https://juliacomputing.com/press/2016/11/28/celeste.html}}
+%\end{itemize}
+%\end{frame}
 
 
 
